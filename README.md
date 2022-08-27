@@ -1,6 +1,22 @@
 # docker-jupyter-notebook
 Docker image for a Jupyter Notebook <br >
 
+## File structure
+Project:
+    data:
+        `<data generated goes to this folder>`
+    nodebooks:
+        `__init__.py`
+        `<jupyter notebooks goes to this folder>`
+    src:
+        `<custom python modules goes to this folder>`
+    .gitignore
+    docker-compose.yml
+        Dockerfile
+        README.md
+        requirements.txt
+        setup.py
+
 ## Setting up
 Launch docker on computer.<br >
 Clone image from repository and cd into image folder. Open terminal add run the following commands below: 
