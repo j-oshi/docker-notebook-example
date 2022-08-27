@@ -2,6 +2,7 @@
 Docker image for a Jupyter Notebook <br >
 
 ## File structure
+<pre>
 Project:
     data:
         `<data generated goes to this folder>`
@@ -16,7 +17,7 @@ Project:
         README.md
         requirements.txt
         setup.py
-
+</pre>
 ## Setting up
 Launch docker on computer.<br >
 Clone image from repository and cd into image folder. Open terminal add run the following commands below: 
