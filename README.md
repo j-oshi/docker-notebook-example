@@ -25,6 +25,8 @@ Clone image from repository and cd into image folder. Open terminal add run the 
  > docker-compose up -d --build <br >
 
 ## Run
+ > docker-compose start <br >
+ > docker-compose stop <br >
 ## Access
 The default access point in browser is <br >
 http://localhost:7777 <br >
