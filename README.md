@@ -5,12 +5,12 @@ Docker image for a Jupyter Notebook <br >
 <pre>
 Project:
     data:
-        <data generated goes to this folder>
+        data generated goes to this folder
     nodebooks:
         __init__.py
-        <jupyter notebooks goes to this folder>
+        jupyter notebooks goes to this folder
     src:
-        <custom python modules goes to this folder>
+        custom python modules goes to this folder
     .gitignore
     docker-compose.yml
         Dockerfile
