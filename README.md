@@ -33,3 +33,14 @@ http://localhost:7777 <br >
 
 ## Run example
 Run jupyter notebook to generate data and table
+
+## To set and run with dockers
+cd into folder <br >
+> python -m venv `environment name` <br >
+> `environment name`\Scripts\activate <br >
+> pip install --upgrade pip 
+> pip install --upgrade setuptools
+> pip install -r requirements.txt
+> jupyter notebook
+or
+> jupyter notebook --port 9999
