@@ -41,3 +41,6 @@ cd into folder <br >
 > pip install --upgrade pip 
 > pip install --upgrade setuptools
 > pip install -r requirements.txt
+> jupyter notebook
+or
+> jupyter notebook --port 9999
