@@ -8,7 +8,7 @@ sys.path.insert(0, os.path.abspath( os.path.dirname(__file__)))
 requirements_path="requirements.txt"
 with open(requirements_path) as requirements_file:
     requirements = requirements_file.read().splitlines()
-
+print(requirements)
 setup(
     name="generic_analysis",
     version="0.0.1",

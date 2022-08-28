@@ -5,7 +5,7 @@ COPY . ./app
 
 COPY setup.py /app
 
-RUN pip install --upgrade pip && pip install setuptools
+RUN pip install --upgrade pip && pip install --upgrade setuptools
 
 RUN pip install -r ./app/requirements.txt
 
