@@ -4,8 +4,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: notebookapp
-    container_name: notebook-app
+    image: forexnotebookapp
+    container_name: forex-notebook-app
     environment:
       - JUPYTER_TOKEN=password
       - JUPYTER_ENABLE_LAB=yes
@@ -14,7 +14,7 @@ services:
     #   - ./notebooks:/home/jovyan/app
     #   - ./src:/home/jovyan/app
     ports:
-      - 7777:8888
+      - 7767:8888
     networks:
       - osh888
 
