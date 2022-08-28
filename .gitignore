@@ -128,7 +128,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-forex_matrix.csv
-forex_price.json
+/data/forex_matrix.csv
+/data/forex_price.json
 
 /dnenv
