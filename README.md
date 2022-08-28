@@ -30,3 +30,6 @@ Clone image from repository and cd into image folder. Open terminal add run the 
 ## Access
 The default access point in browser is <br >
 http://localhost:7777 <br >
+
+## Run example
+Run jupyter notebook to generate data and table
