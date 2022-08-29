@@ -5,18 +5,18 @@ Docker image for a Jupyter Notebook <br >
 <pre>
 Project:
     data:
-        data generated goes to this folder
+        data generated goes into this folder
     nodebooks:
-        __init__.py
-        jupyter notebooks goes to this folder
+        jupyter notebooks goes into this folder
     src:
-        custom python modules goes to this folder
+        __init__.py
+        custom python modules goes into this folder
     .gitignore
     docker-compose.yml
-        Dockerfile
-        README.md
-        requirements.txt
-        setup.py
+    Dockerfile
+    README.md
+    requirements.txt
+    setup.py
 </pre>
 ## Setting up
 ### Run in venv
