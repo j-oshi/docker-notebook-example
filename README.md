@@ -36,12 +36,12 @@ or <br >
 Launch docker on computer.<br >
 Clone image from repository and cd into image folder. Open terminal add run the following commands below: 
 ### Build image and run
- > docker-compose build --no-cache --pull <br >
- > docker-compose up -d --build <br >
+ `> docker-compose build --no-cache --pull` <br >
+ `> docker-compose up -d --build` <br >
 
 #### To start and stop container
- > docker-compose start <br >
- > docker-compose stop <br >
+ `> docker-compose start` <br >
+ `> docker-compose stop` <br >
 #### Access
 The default access point in browser is <br >
 http://localhost:7777 <br >
@@ -57,7 +57,7 @@ The use of `pip freeze > -l > requirements.txt` to update the packages has led t
 
 The `pip freeze` command was found to appended incompatible local environments packages from source that are not required in a different installation setting. Run the command below when installing or uninstalling addtional packages to avoid installation failure. <br >
 
-> python manage_pip install|uninstall packages
+`> python manage_pip install|uninstall packages`
 
 Running this script rather than pip to prevent appending all the installed packages from a local environment when adding other packages. <br >
 
