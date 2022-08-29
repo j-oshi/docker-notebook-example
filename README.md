@@ -20,17 +20,17 @@ Project:
 </pre>
 ## Setting up
 ### Run in venv
-> python -m venv `environment name` <br >
-> `environment name`\Scripts\activate <br >
-> pip install --upgrade pip <br > 
-> pip install --upgrade setuptools <br >
-Use to install default packages.
-> pip install -r requirements.txt <br >
-Use to installing new packages
-> python manage_pip install|uninstall packages <br >
-> jupyter notebook <br >
+`> python -m venv environment name` <br >
+`> environment name`\Scripts\activate` <br >
+`> pip install --upgrade pip` <br > 
+`> pip install --upgrade setuptools` <br >
+Use to install default packages. <br >
+`> pip install -r requirements.txt` <br >
+Use to installing new packages <br >
+`> python manage_pip install|uninstall packages` <br >
+`> jupyter notebook` <br >
 or <br >
-> jupyter notebook --port 9999
+`> jupyter notebook --port 9999`
 
 ### Run in dockers
 Launch docker on computer.<br >
