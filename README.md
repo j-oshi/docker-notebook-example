@@ -51,12 +51,12 @@ Run jupyter notebook to generate data and table
 cd into folder <br >
 
 #### Run managa_pip
-The use of `pip freeze > -l > requirements.txt` to update the packages in requirements.txt has led to installation failure in some cases. <br >
+The use of `pip freeze > -l > requirements.txt` to update the packages has led to installation failure in some cases. <br >
 
-The `pip freeze` command was found to appended incompatible packages from local environments that caused conflict in a different installation setting. Run the command below when installing or uninstalling packages to avoid installation failure. <br >
+The `pip freeze` command was found to appended incompatible local environments packages from source that are not required in a different installation setting. Run the command below when installing or uninstalling packages to avoid installation failure. <br >
 
 > python manage_pip install|uninstall packages
 
-Running this script rather than use pip to install or uninstall packages will prevent the issue with pip freeze > -l > requirments.txt appending all packages from a local environment. <br >
+Running this script rather than pip to prevent appending all packages from a local environment. <br >
 
 
