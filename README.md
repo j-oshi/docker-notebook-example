@@ -24,7 +24,8 @@ Project:
 > `environment name`\Scripts\activate <br >
 > pip install --upgrade pip <br > 
 > pip install --upgrade setuptools <br >
-> pip install -r requirements.txt <br >
+> python manage_pip install|uninstall packages
+<!-- > pip install -r requirements.txt <br > -->
 > jupyter notebook <br >
 or <br >
 > jupyter notebook --port 9999
@@ -48,4 +49,10 @@ Run jupyter notebook to generate data and table
 
 #### To set and run with dockers
 cd into folder <br >
+
+#### Run managa_pip
+Running this script rather than use pip to install or uninstall packages will prevent issue with pip freeze > -l > requirments.txt to update the requirement file. <br >
+
+When pip freeze command is used to update requirements file, there ia a likely probability of installation failure with a system with different python environment configuration. Pip freeze writes local environment packages with versions that might conflict with new environment packages. Running manage_pip appends or removes just the requested packages with exact version. <br >
+> python manage_pip install|uninstall packages
 
