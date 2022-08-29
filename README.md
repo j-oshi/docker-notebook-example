@@ -20,8 +20,8 @@ Project:
 </pre>
 ## Setting up
 ### Run in venv
-`> python -m venv environment name` <br >
-`> environment name`\Scripts\activate` <br >
+`> python -m venv <environment name>` <br >
+`> <environment name>\Scripts\activate` <br >
 `> pip install --upgrade pip` <br > 
 `> pip install --upgrade setuptools` <br >
 Use to install default packages. <br >
