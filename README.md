@@ -22,11 +22,11 @@ Project:
 ### Run in venv
 > python -m venv `environment name` <br >
 > `environment name`\Scripts\activate <br >
-> pip install --upgrade pip 
-> pip install --upgrade setuptools
-> pip install -r requirements.txt
-> jupyter notebook
-or
+> pip install --upgrade pip <br > 
+> pip install --upgrade setuptools <br >
+> pip install -r requirements.txt <br >
+> jupyter notebook <br >
+or <br >
 > jupyter notebook --port 9999
 
 ### Run in dockers
