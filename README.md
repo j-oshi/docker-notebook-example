@@ -25,7 +25,7 @@ Project:
 > pip install --upgrade pip <br > 
 > pip install --upgrade setuptools <br >
 > python manage_pip install|uninstall packages
-<!-- > pip install -r requirements.txt <br > -->
+> pip install -r requirements.txt <br >
 > jupyter notebook <br >
 or <br >
 > jupyter notebook --port 9999
@@ -53,10 +53,10 @@ cd into folder <br >
 #### Run managa_pip
 The use of `pip freeze > -l > requirements.txt` to update the packages has led to installation failure in some cases. <br >
 
-The `pip freeze` command was found to appended incompatible local environments packages from source that are not required in a different installation setting. Run the command below when installing or uninstalling packages to avoid installation failure. <br >
+The `pip freeze` command was found to appended incompatible local environments packages from source that are not required in a different installation setting. Run the command below when installing or uninstalling addtional packages to avoid installation failure. <br >
 
 > python manage_pip install|uninstall packages
 
-Running this script rather than pip to prevent appending all packages from a local environment. <br >
+Running this script rather than pip to prevent appending all the installed packages from a local environment when adding other packages. <br >
 
 
