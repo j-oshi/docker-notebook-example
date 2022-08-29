@@ -24,8 +24,10 @@ Project:
 > `environment name`\Scripts\activate <br >
 > pip install --upgrade pip <br > 
 > pip install --upgrade setuptools <br >
-> python manage_pip install|uninstall packages
+Use to install default packages.
 > pip install -r requirements.txt <br >
+Use to installing new packages
+> python manage_pip install|uninstall packages <br >
 > jupyter notebook <br >
 or <br >
 > jupyter notebook --port 9999
