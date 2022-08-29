@@ -24,7 +24,8 @@ Project:
 > `environment name`\Scripts\activate <br >
 > pip install --upgrade pip <br > 
 > pip install --upgrade setuptools <br >
-> pip install -r requirements.txt <br >
+> python manage_pip install|uninstall packages
+<!-- > pip install -r requirements.txt <br > -->
 > jupyter notebook <br >
 or <br >
 > jupyter notebook --port 9999
@@ -48,4 +49,16 @@ Run jupyter notebook to generate data and table
 
 #### To set and run with dockers
 cd into folder <br >
+
+#### Run managa_pip
+The use of `pip freeze > -l > requirements.txt` to update the packages in requirements.txt has led to installation failure in some cases. <br >
+
+The `pip freeze` command was found to appended incompatible packages from local environments that caused conflict in a different installation setting. Run the command below to install or uninstall packages and avoid installation failure. <br >
+
+> python manage_pip install|uninstall packages
+
+Running this script rather than use pip to install or uninstall packages will prevent the issue with pip freeze > -l > requirments.txt appending all packages from a local environment. <br >
+
+When pip freeze command is used to update requirements file, there ia a likely probability of installation failure with a system with different python environment configuration. Pip freeze writes local environment packages with versions that might conflict with new environment packages. Running manage_pip appends or removes just the requested packages with exact version. <br >
+> python manage_pip install|uninstall packages
 
