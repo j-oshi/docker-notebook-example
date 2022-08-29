@@ -32,10 +32,11 @@ or <br >
 ### Run in dockers
 Launch docker on computer.<br >
 Clone image from repository and cd into image folder. Open terminal add run the following commands below: 
+### Build image and run
  > docker-compose build --no-cache --pull <br >
  > docker-compose up -d --build <br >
 
-#### Run
+#### To start and stop container
  > docker-compose start <br >
  > docker-compose stop <br >
 #### Access
